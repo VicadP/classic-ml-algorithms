@@ -13,10 +13,10 @@
 
 - Linear regression
 - Logistic regression
-- Linear SVC (L2 hindge loss; SGD optimization)
-- KNN
-- Random forest
-- Gradient Boosting Machine
+- Linear SVC (L2 hinge loss; SGD optimization)
+- KNN Regressor/Classifier
+- Random forest Regressor/Classifier
+- Gradient Boosting Machine Regressor/Classifier
 
 Сравнение с бенчмарком:
 
@@ -47,9 +47,9 @@
 | Sklearn LogReg            | 0.732667   | 0.813962  |
 | Custom SVC                | 0.706000   | -         |
 | Sklearn SVC               | 0.698667   | -         |
-| My KNN uniform            | 0.789333   | 0.836363  |
+| Custom KNN uniform        | 0.789333   | 0.836363  |
 | Sklearn KNN uniform       | 0.789333   | 0.836363  |
-| My KNN distance           | 0.813667   | 0.868862  |
+| Custom KNN distance       | 0.813667   | 0.868862  |
 | Sklearn KNN distance      | 0.812000   | 0.868316  |
 | Custom RF                 | 0.835667   | 0.879501  |
 | Sklearn RF                | 0.835667   | 0.879591  |
