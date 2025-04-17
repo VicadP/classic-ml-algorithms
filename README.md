@@ -15,7 +15,7 @@
 - Logistic regression
 - Linear SVC (L2 hinge loss; SGD optimization)
 - KNN Regressor/Classifier
-- Random forest Regressor/Classifier
+- Random Forest Regressor/Classifier
 - Gradient Boosting Machine Regressor/Classifier
 
 Сравнение с бенчмарком:
